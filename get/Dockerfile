@@ -1,6 +1,6 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
-
+#shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 COPY rootfs /
